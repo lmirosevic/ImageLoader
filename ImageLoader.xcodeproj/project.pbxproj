@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		832ABEDF8C621A1D308E42F6 /* libPods-ImageLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A83504CCB001C3780C22CFFE /* libPods-ImageLoader.a */; };
+		47C61A49A03412AFA1C01445 /* Pods_ImageLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523769E2731EAE23DC4F1C7B /* Pods_ImageLoader.framework */; };
 		8A283E9E1EA7C6FD000DF8A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A283E9D1EA7C6FD000DF8A2 /* AppDelegate.swift */; };
 		8A283EA01EA7C6FD000DF8A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A283E9F1EA7C6FD000DF8A2 /* ViewController.swift */; };
 		8A283EA31EA7C6FD000DF8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A283EA11EA7C6FD000DF8A2 /* Main.storyboard */; };
@@ -36,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		3783531FB44265829275DF18 /* Pods-ImageLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageLoader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageLoader/Pods-ImageLoader.release.xcconfig"; sourceTree = "<group>"; };
+		523769E2731EAE23DC4F1C7B /* Pods_ImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB2F4FDC760D4428DC23422 /* Pods-ImageLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageLoader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageLoader/Pods-ImageLoader.debug.xcconfig"; sourceTree = "<group>"; };
 		8A283E9A1EA7C6FD000DF8A2 /* ImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A283E9D1EA7C6FD000DF8A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		8A283EB91EA7C6FD000DF8A2 /* ImageLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A283EBD1EA7C6FD000DF8A2 /* ImageLoaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderUITests.swift; sourceTree = "<group>"; };
 		8A283EBF1EA7C6FD000DF8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A83504CCB001C3780C22CFFE /* libPods-ImageLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageLoader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				832ABEDF8C621A1D308E42F6 /* libPods-ImageLoader.a in Frameworks */,
+				47C61A49A03412AFA1C01445 /* Pods_ImageLoader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 		57C55ACA4AA66B9BBF5A6134 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A83504CCB001C3780C22CFFE /* libPods-ImageLoader.a */,
+				523769E2731EAE23DC4F1C7B /* Pods_ImageLoader.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
